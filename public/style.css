@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: rgba(211, 211, 211, 0.875);
+    background: rgba(36, 36, 36, 0.673);
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1850px;
+    width: 100%;
+    height: 80px;
+    margin: 1rem auto;
+    font-size: 1.7rem;
+    background: #3d3d3d77;
+    cursor: pointer;
+}
+
+.logo {
+    margin-right: auto 20px;
+    width: 20%;
+}
+
+.navigation {
+    width: 75%;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+li {
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: lightgray;
+    text-transform: uppercase;
+}
+
+
+.container {
+    display: grid;
+    grid-row: 3;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    margin: 3rem auto;
+    height: 420px;
+    border: 3px solid darkgray;
+}
+
+form {
+    padding: 20px;
+}
+
+label {
+    margin: auto;
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+input {
+    background: rgba(242, 242, 242, 0.814);
+    border-radius: 10px;
+    height: 30px;
+    border-style: none;
+    outline: none;
+    font-size: 1.5rem;
+    padding: 10px;
+    margin: 1rem auto;
+    font-weight: bold;
+}
+
+button {
+    background: lightblue;
+    color: crimson;
+    width: 10rem;
+    height: 4rem;
+    border-radius: 10px;
+    outline: none;
+    border-style: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: auto;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+footer {
+    height: 100%;
+    width: 100%;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.list-of-product {
+    width: 100%;
+    margin: 2rem;
+
+}
+
+.p-1 {
+    width: 80%;
+    margin-left: 4rem;
+}
+
+.p-2 {
+    width: 80%;
+    margin-left: 4rem;
+}
+
+.p-3 {
+    width: 80%;
+    margin-left: 4rem;
+}
+
+.table {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
