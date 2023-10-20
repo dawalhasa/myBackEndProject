@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-    <%- include('./partial/header.ejs') %>
-<body>
-    <%- include('./partial/navbar.ejs') %>
-    <h1 align="center">A S SILKS Login Page</h1>
-    <form action="/" method="post" class="container">
-        <label for="loginPage">Log In</label>
-        <input type="username" required placeholder="Enter Your Name" name="username">
-        <input type="password" required placeholder="Enter Your Password" name="password">
-        <button class="submit">Click</button>
-    </form>
-    <%- include('./partial/footer.ejs') %>
-</body>
+<%- include('./partial/header.ejs') %>
+
+    <body>
+        <%- include('./partial/navbar.ejs') %>
+            <h1 align="center">A S SILKS Login Page</h1>
+            <form action="/" method="post" class="container">
+                <label for="loginPage">Log In</label>
+                <input type="username" required placeholder="Enter Your Name" name="username">
+                <input type="password" required placeholder="Enter Your Password" name="password">
+                <button class="submit">Click</button>
+            </form>
+        <%- include('./partial/footer.ejs') %>
+    </body>
+    
 </html>

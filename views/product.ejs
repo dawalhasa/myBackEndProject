@@ -1,9 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-    <%- include('./partial/header.ejs') %>
-<body>
-    <%- include('./partial/navbar.ejs') %>
-    <h1>A S SILKS Product List</h1>
-    <%- include('./partial/footer.ejs') %>
-</body>
+<%- include('./partial/header.ejs') %>
+
+    <body>
+        <%- include('./partial/navbar.ejs') %>
+            <h1>A S SILKS Product List</h1>
+
+            <div class="list-of-product">
+                <h3 align="center">We offer a wide range of silk raw material and silk thread products, including:</h3>
+                <ul
+                    style="font-size: 2rem; display: flex; flex-direction: column; align-items: center; margin: 0; right: 0;">
+                    <li>Mulberry silk yarn</li>
+                    <li>Tussar silk yarn</li>
+                    <li>Eri silk yarn</li>
+                    <li>Raw silk cocoons</li>
+                    <li>Silk waste</li>
+                </ul>
+                <%- include('./partial/footer.ejs') %>
+    </body>
+
 </html>
